@@ -66,7 +66,7 @@ services:
       SFX_ACCESS_TOKEN: "${SPLUNK_ACCESS_TOKEN}"
       SFX_INGEST_URL: "https://ingest.${SPLUNK_REALM}.signalfx.com"
       SFX_API_URL: "https://api.${SPLUNK_REALM}.signalfx.com"
-      SFX_TRACE_ENDPOINT_URL: "https://ingest.signalfx.com/v2/trace"
+      SFX_TRACE_ENDPOINT_URL: "https://ingest.${SPLUNK_REALM}.signalfx.com/v2/trace"
       SFX_VERSION: "5"
       SFX_ENVIRONMENT: wvalerio-kafka
       HOSTNAME: wvalerio-kafka
